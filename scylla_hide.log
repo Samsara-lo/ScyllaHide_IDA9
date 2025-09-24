@@ -1,0 +1,70 @@
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> _NtSetInformationThread 00007FFF08A1F980 _NtQuerySystemInformation 00007FFF08A1FEA0 _NtQueryInformationProcess 00007FFF08A1FB00 _NtSetInformationProcess 00007FFF08A1FB60 _NtQueryObject 00007FFF08A1F9E0
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> _NtYieldExecution 00007FFF08A200A0 _NtGetContextThread 00007FFF08A21730 _NtSetContextThread 00007FFF08A22B10 _KiUserExceptionDispatcher 00007FFF08A23840 _NtContinue 00007FFF08A20040
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> _NtClose 00007FFF08A1F9C0 _NtDuplicateObject 00007FFF08A1FF60 _NtSetDebugFilterState 00007FFF08A22B30 _NtCreateThread 00007FFF08A201A0 _NtCreateThreadEx 00007FFF08A210F0 _NtQuerySystemTime 00007FFF08A20320 _NtQueryPerformanceCounter 00007FFF08A1FE00 _NtResumeThread 00007FFF08A20220
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> _NtOpenFile 00007FFF08A1FE40 _NtCreateSection 00007FFF08A20120 _NtMapViewOfSection 00007FFF08A1FCE0
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationThread
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemInformation
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtQueryInformationProcess
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationProcess
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtQueryObject
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtYieldExecution
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtGetContextThread
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtSetContextThread
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtClose
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtDuplicateObject
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtCreateThreadEx
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtSetDebugFilterState
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking KiUserExceptionDispatcher
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtContinue
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Finding jmp to RtlQuerySystemTime at NtQuerySystemTime
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemTime at 00007FFF089B4700
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtQueryPerformanceCounter
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtOpenFile
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtCreateSection
+2025.04.09 16:59:19 DEBUG: ApplyNtdllHook -> Hooking NtMapViewOfSection
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Using Kernelbase 00007FFF05AC0000 instead of kernel32 00007FFF07680000
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> _GetTickCount 00007FFF05B56DA0 _GetTickCount64 00007FFF05B6BB90 _GetLocalTime 00007FFF05AD4F30 _GetSystemTime 00007FFF05AD8C90 _OutputDebugStringA 00007FFF05B8A790
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount64
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Hooking GetLocalTime
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Hooking GetSystemTime
+2025.04.09 16:59:19 DEBUG: ApplyKernel32Hook -> Hooking OutputDebugStringA
+2025.04.09 16:59:19 DEBUG: ApplyUserHook -> HookedNtUserBlockInput 00000000001F216C HookedNtUserFindWindowEx 00000000001F21C8 HookedNtUserBuildHwndList 00000000001F2304 HookedNtUserBuildHwndList_Eight 00000000001F2364 HookedNtUserQueryWindow 00000000001F23D0 HookedNtUserGetForegroundWindow 00000000001F2430
+2025.04.09 16:59:19 DEBUG: ApplyUserHook -> _NtUserBlockInput 0000000000000000 _NtUserFindWindowEx 0000000000000000 _NtUserBuildHwndList 0000000000000000 _NtUserQueryWindow 0000000000000000 _NtUserGetForegroundWindow 0000000000000000
+2025.04.09 16:59:19 DEBUG: ApplyUserHook -> Hooking NtUserBlockInput
+2025.04.09 16:59:20 ERROR: Failed to write hook dll data
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> _NtSetInformationThread 00007FFF08A1F980 _NtQuerySystemInformation 00007FFF08A1FEA0 _NtQueryInformationProcess 00007FFF08A1FB00 _NtSetInformationProcess 00007FFF08A1FB60 _NtQueryObject 00007FFF08A1F9E0
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> _NtYieldExecution 00007FFF08A200A0 _NtGetContextThread 00007FFF08A21730 _NtSetContextThread 00007FFF08A22B10 _KiUserExceptionDispatcher 00007FFF08A23840 _NtContinue 00007FFF08A20040
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> _NtClose 00007FFF08A1F9C0 _NtDuplicateObject 00007FFF08A1FF60 _NtSetDebugFilterState 00007FFF08A22B30 _NtCreateThread 00007FFF08A201A0 _NtCreateThreadEx 00007FFF08A210F0 _NtQuerySystemTime 00007FFF08A20320 _NtQueryPerformanceCounter 00007FFF08A1FE00 _NtResumeThread 00007FFF08A20220
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> _NtOpenFile 00007FFF08A1FE40 _NtCreateSection 00007FFF08A20120 _NtMapViewOfSection 00007FFF08A1FCE0
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationThread
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemInformation
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtQueryInformationProcess
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationProcess
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtQueryObject
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtYieldExecution
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtGetContextThread
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtSetContextThread
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtClose
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtDuplicateObject
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtCreateThreadEx
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtSetDebugFilterState
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking KiUserExceptionDispatcher
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtContinue
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Finding jmp to RtlQuerySystemTime at NtQuerySystemTime
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemTime at 00007FFF089B4700
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtQueryPerformanceCounter
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtOpenFile
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtCreateSection
+2025.04.09 17:04:50 DEBUG: ApplyNtdllHook -> Hooking NtMapViewOfSection
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Using Kernelbase 00007FFF05AC0000 instead of kernel32 00007FFF07680000
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> _GetTickCount 00007FFF05B56DA0 _GetTickCount64 00007FFF05B6BB90 _GetLocalTime 00007FFF05AD4F30 _GetSystemTime 00007FFF05AD8C90 _OutputDebugStringA 00007FFF05B8A790
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount64
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Hooking GetLocalTime
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Hooking GetSystemTime
+2025.04.09 17:04:50 DEBUG: ApplyKernel32Hook -> Hooking OutputDebugStringA
+2025.04.09 17:04:50 DEBUG: ApplyUserHook -> HookedNtUserBlockInput 00000000001F216C HookedNtUserFindWindowEx 00000000001F21C8 HookedNtUserBuildHwndList 00000000001F2304 HookedNtUserBuildHwndList_Eight 00000000001F2364 HookedNtUserQueryWindow 00000000001F23D0 HookedNtUserGetForegroundWindow 00000000001F2430
+2025.04.09 17:04:50 DEBUG: ApplyUserHook -> _NtUserBlockInput 0000000000000000 _NtUserFindWindowEx 0000000000000000 _NtUserBuildHwndList 0000000000000000 _NtUserQueryWindow 0000000000000000 _NtUserGetForegroundWindow 0000000000000000
+2025.04.09 17:04:50 DEBUG: ApplyUserHook -> Hooking NtUserBlockInput
+2025.04.09 17:04:51 ERROR: Failed to write hook dll data
